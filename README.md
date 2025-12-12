@@ -16,8 +16,14 @@ This project demonstrates practical knowledge in Linux system administration, ne
 - Documentation of reproducible workflows and error resolution
 
 ## Tools Used
-- Fedora Linux VMs, SSH, SCP, NFS, Samba, Apache, Cockpit
-- SELinux, firewall-cmd, cron, shell scripting, tar/gzip/bzip2
+- Operating Systems: Red Hat–based Linux VMs
+- Networking: SSH, SCP, hostnamectl, /etc/hosts, firewall-cmd
+- File Sharing: NFS, Samba (smbclient, smb.conf)
+- Web Services: Apache HTTP Server, Cockpit web interface
+- Security: SELinux (semanage, restorecon, setsebool), SSH key authentication, htpasswd
+- Automation: cron jobs, shell scripting
+- Archiving: tar, gzip, bzip2
+- Virtualization: Virtual Machines (VirtualBox/VMware)
 
 ## Environment Setup
 - Two Linux VMs created: `mariiaat.mariia.lab` and `friend.mariia.lab`
